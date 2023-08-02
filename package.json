@@ -1,0 +1,29 @@
+{
+  "name": "dark-mode-userscript",
+  "version": "0.0.9",
+  "description": "A userScript to enable dark mode with only one line css",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . --fix --ignore-path .gitignore",
+    "release": "npx standard-version && git push --follow-tags"
+  },
+  "keywords": [
+    "userscript",
+    "chatgpt",
+    "hackmd"
+  ],
+  "author": "Michael Wang 汪東陽 <michael19920327@gmial.com> (https://github.com/EastSun5566)",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^7.32.0 || ^8.2.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "simple-git-hooks": "^2.8.1"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "npx lint-staged"
+  },
+  "lint-staged": {
+    "*.js": "pnpm run lint"
+  }
+}
