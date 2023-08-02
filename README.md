@@ -1,5 +1,5 @@
-# ChatGPT to HackMD UserScript
+# Dark Mode UserScript
 
-> Ship some ChatGPT conversions to HackMD!!!
+> Enable dark mode with only one line of CSS
 
-[Install on Greasyfork](https://greasyfork.org/en/scripts/469775-chatgpt-2-hackmd)
+[Install on Greasyfork](https://greasyfork.org/en/scripts/dark-mode)

@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         dark mode for life
+// @name         Dark mode
 // @namespace    https://github.com/EastSun5566
-// @version      0.0.1
-// @description  enable dark mode with only one line css
+// @version      0.0.2
+// @description  Enable dark mode with only one line of CSS
 // @author       Michael Wang
 // @license      MIT
 // @match        https://**
