@@ -1,6 +1,6 @@
 {
   "name": "dark-mode-userscript",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A userScript to enable dark mode with only one line css",
   "main": "index.js",
   "scripts": {
