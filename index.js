@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Dark mode
 // @namespace    https://github.com/EastSun5566
-// @version      0.0.4
+// @version      0.0.5
 // @description  Enable dark mode with only one line of CSS
 // @author       Michael Wang
 // @license      MIT
