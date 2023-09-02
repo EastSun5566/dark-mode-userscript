@@ -24,5 +24,6 @@ module.exports = {
   rules: {
     'no-restricted-syntax': 'off',
     'func-names': 'off',
+    'no-param-reassign': 'off',
   },
 };

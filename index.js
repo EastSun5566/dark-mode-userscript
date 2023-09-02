@@ -9,8 +9,17 @@
 // @grant        none
 // ==/UserScript==
 
-// @ts-check
-
 (function () {
-  document.documentElement.style.filter = 'invert(1) hue-rotate(180deg)';
+  const style = document.createElement('style');
+  style.textContent = `
+    html {
+      filter: invert(1) hue-rotate(180deg) contrast(0.8);
+    }
+
+    /** reverse filer for media elements */
+    img, video, picture, canvas, iframe, embed {
+      filter: invert(1) hue-rotate(180deg);
+    }
+  `;
+  document.head.appendChild(style);
 }());
