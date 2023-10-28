@@ -1,7 +1,7 @@
 {
   "name": "dark-mode-userscript",
   "version": "0.0.5",
-  "description": "A userScript to enable dark mode with only one line css",
+  "description": "🌗 A userScript to enable dark mode with only one line css",
   "main": "index.js",
   "scripts": {
     "lint": "eslint . --fix --ignore-path .gitignore",
@@ -9,8 +9,7 @@
   },
   "keywords": [
     "userscript",
-    "chatgpt",
-    "hackmd"
+    "dark-mode"
   ],
   "author": "Michael Wang 汪東陽 <michael19920327@gmial.com> (https://github.com/EastSun5566)",
   "license": "MIT",
